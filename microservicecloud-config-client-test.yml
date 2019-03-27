@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: config-client-test
+  cloud:
+    config:
+      label: master
+      profile: test
+      discovery:
+        enabled: true
+        serviceId: config-server-test
+  rabbitmq:
+      host: 192.168.20.189
+      port: 5672
+      username: nbhtxx
+      password: 123456
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.20.118:7001/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
