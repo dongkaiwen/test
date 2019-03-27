@@ -25,4 +25,4 @@ management:
       exposure:
         include: bus-refresh
         
-foo:microservicecloud.config.dev
+foo: microservicecloud.config.dev

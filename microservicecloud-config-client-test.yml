@@ -25,4 +25,4 @@ management:
       exposure:
         include: bus-refresh
         
-foo:microservicecloud.config.test
+foo: microservicecloud.config.test
